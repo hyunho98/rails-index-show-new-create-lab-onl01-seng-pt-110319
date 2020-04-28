@@ -1,5 +1,5 @@
 class CreateCoupons < ActiveRecord::Migration
-  def change
+  def create_table
     t.string :coupon_code
     t.string :store
 
